@@ -15,13 +15,13 @@ Some of the checklists in this doc are for **C4 (🐺)** and some of them are fo
 # Contest setup
 
 ## 🐺 C4: Set up repos
-- [ ] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
-- [ ] Rename this repo to reflect contest date (if applicable)
-- [ ] Rename contest H1 below
-- [ ] Update pot sizes
-- [ ] Fill in start and end times in contest bullets below
-- [ ] Add link to submission form in contest details below
-- [ ] Add the information from the scoping form to the "Scoping Details" section at the bottom of this readme.
+- [x] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
+- [x] Rename this repo to reflect contest date (if applicable)
+- [x] Rename contest H1 below
+- [x] Update pot sizes
+- [x] Fill in start and end times in contest bullets below
+- [x] Add link to submission form in contest details below
+- [x] Add the information from the scoping form to the "Scoping Details" section at the bottom of this readme.
 - [ ] Add matching info to the [code423n4.com public contest data here](https://github.com/code-423n4/code423n4.com/blob/main/_data/contests/contests.csv))
 - [ ] Add sponsor to this private repo with 'maintain' level access.
 - [ ] Send the sponsor contact the url for this repo to follow the instructions below and add contracts here. 
@@ -61,20 +61,19 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 ---
 
-# Sponsorname contest details
-- Total Prize Pool: XXX XXX USDC (Notion: Total award pool)
-  - HM awards: XXX XXX USDC (Notion: HM (main) pool)
-  - QA report awards: XXX XXX USDC (Notion: QA pool)
-  - Gas report awards: XXX XXX USDC (Notion: Gas pool)
-  - Judge awards: XXX XXX USDC (Notion: Judge Fee)
-  - Lookout awards: XXX XXX USDC (Notion: Sum of Pre-sort fee + Pre-sort early bonus)
+# Rubicon contest details
+- Total Prize Pool: $60,500 USDC 
+  - HM awards: $46,550 USDC 
+  - QA report awards: $5,450 USDC 
+  - Gas report awards: $2,500 USDC 
+  - Judge awards: $5,500 USDC 
+  - Lookout awards: Sponsor to complete Pre-sort
   - Scout awards: $500 USDC (Notion: Scout fee - but usually $500 USDC)
-  - (this line can be removed if there is no mitigation) Mitigation review contest: XXX XXX USDC (*Opportunity goes to top X certified wardens based on placement in this contest.*)
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/YYYY-MM-sponsorName-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2023-04-rubicon-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
-- Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
+- Starts April 05, 2023 20:00 UTC
+- Ends April 13, 2023 20:00 UTC 
 
 ## Automated Findings / Publicly Known Issues
 
@@ -110,24 +109,24 @@ Automated findings output for the contest can be found [here](add link to report
 
 ## Scoping Details 
 ```
-- If you have a public code repo, please share it here:  
-- How many contracts are in scope?:   
-- Total SLoC for these contracts?:  
-- How many external imports are there?:  
-- How many separate interfaces and struct definitions are there for the contracts within scope?:  
-- Does most of your code generally use composition or inheritance?:   
-- How many external calls?:   
-- What is the overall line coverage percentage provided by your tests?:  
-- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:   
+- If you have a public code repo, please share it here:  https://github.com/RubiconDeFi/rubi-protocol-v2
+- How many contracts are in scope?:   6
+- Total SLoC for these contracts?:  1577
+- How many external imports are there?:  8
+- How many separate interfaces and struct definitions are there for the contracts within scope?:  8
+- Does most of your code generally use composition or inheritance?:   Composition
+- How many external calls?:   5
+- What is the overall line coverage percentage provided by your tests?:  60%
+- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:   False
 - Please describe required context:   
-- Does it use an oracle?:  
+- Does it use an oracle?:  Chainlink
 - Does the token conform to the ERC20 standard?:  
-- Are there any novel or unique curve logic or mathematical models?: 
+- Are there any novel or unique curve logic or mathematical models?: None - order books baby! Matching engine has some maths
 - Does it use a timelock function?:  
 - Is it an NFT?: 
 - Does it have an AMM?:   
 - Is it a fork of a popular project?:   
-- Does it use rollups?:   
+- Does it use rollups?:   True
 - Is it multi-chain?:  
 - Does it use a side-chain?: 
 ```
