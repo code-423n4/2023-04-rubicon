@@ -3,6 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-ethers";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomicfoundation/hardhat-foundry";
+import "hardhat-gas-reporter"
 
 require("dotenv").config();
 
@@ -23,7 +24,9 @@ const config: HardhatUserConfig = {
       },
     ],
   },
-
+  gasReporter: {
+    enabled: true
+  },
   // *** TODO CONFIGURE NETWORKS AND VERIFICATION ***
   networks: {
     optimismMainnet: {

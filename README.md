@@ -29,19 +29,19 @@ The following contracts are considered in scope for this audit. Here is the [cod
 
 | Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| [contracts/RubiconMarket.sol](contracts/RubiconMarket.sol) | 888 | Main order-book logic | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [contracts/BathHouseV2.sol](contracts/BathHouseV2.sol) | 89 | Management of the BathTokens and BathBuddies | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [contracts/V2Migrator.sol](contracts/BathHouseV2.sol) | 30 | v1->v2 LPs migration | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [contracts/periphery/BathBuddy.sol](contracts/periphery/BathBuddy.sol) | 143 | Rewards distribution for LPs | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [contracts/utilities/poolsUtility/Position.sol](contracts/utilities/poolsUtility/Position.sol) | 360 | Creation of leveraged positions | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [contracts/utilities/FeeWrapper.sol](contracts/utilities/FeeWrapper.sol) | 67 | Adding fees via 3rd party protocols | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [contracts/RubiconMarket.sol](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/RubiconMarket.sol) | 888 | Main order-book logic | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [contracts/BathHouseV2.sol](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/BathHouseV2.sol) | 89 | Management of the BathTokens and BathBuddies | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [contracts/V2Migrator.sol](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/V2Migrator.sol) | 30 | v1->v2 LPs migration | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [contracts/periphery/BathBuddy.sol](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/periphery/BathBuddy.sol) | 143 | Rewards distribution for LPs | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [contracts/utilities/poolsUtility/Position.sol](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/utilities/poolsUtility/Position.sol) | 360 | Creation of leveraged positions | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [contracts/utilities/FeeWrapper.sol](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/utilities/FeeWrapper.sol) | 67 | Adding fees via 3rd party protocols | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 
 Total nSLOC: 1577 - [calculated with this plugin.](https://github.com/ConsenSys/solidity-metrics)
 
 
 ## Out of scope
 
-`contracts/comound-v2-fork/*.sol` and everything that isn't included in the scope above
+`contracts/compound-v2-fork/*.sol` and everything that isn't included in the scope above
 
 # Additional Context
 
