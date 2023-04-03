@@ -250,16 +250,21 @@ This contract allows any external smart contract to wrap calls to the Rubicon Pr
 
 ```
 
-# Tests
+# Tests and Installation
 Install dependencies
 ```shell
 git clone https://github.com/code-423n4/2023-04-rubicon # clone the repo
+npm i
 yarn install # install deps
+yarn run test # run tests
+yarn run compile # compile
 ```
 *OR*
 ```shell
 git clone https://github.com/code-423n4/2023-04-rubicon # clone the repo
 npm i # install deps
+npm run test # run tests
+npm run compile # compile
 ```
 ## Hardhat
 ```shell
