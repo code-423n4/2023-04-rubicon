@@ -1,66 +1,3 @@
-# ✨ So you want to sponsor a contest
-
-This `README.md` contains a set of checklists for our contest collaboration.
-
-Your contest will use two repos: 
-- **a _contest_ repo** (this one), which is used for scoping your contest and for providing information to contestants (wardens)
-- **a _findings_ repo**, where issues are submitted (shared with you after the contest) 
-
-Ultimately, when we launch the contest, this contest repo will be made public and will contain the smart contracts to be reviewed and all the information needed for contest participants. The findings repo will be made public after the contest report is published and your team has mitigated the identified issues.
-
-Some of the checklists in this doc are for **C4 (🐺)** and some of them are for **you as the contest sponsor (⭐️)**.
-
----
-
-# Contest setup
-
-## 🐺 C4: Set up repos
-- [x] Create a new private repo named `YYYY-MM-sponsorname` using this repo as a template.
-- [x] Rename this repo to reflect contest date (if applicable)
-- [x] Rename contest H1 below
-- [x] Update pot sizes
-- [x] Fill in start and end times in contest bullets below
-- [x] Add link to submission form in contest details below
-- [x] Add the information from the scoping form to the "Scoping Details" section at the bottom of this readme.
-- [ ] Add matching info to the [code423n4.com public contest data here](https://github.com/code-423n4/code423n4.com/blob/main/_data/contests/contests.csv))
-- [x] Add sponsor to this private repo with 'maintain' level access.
-- [x] Send the sponsor contact the url for this repo to follow the instructions below and add contracts here. 
-- [ ] Delete this checklist.
-
-# Repo setup
-
-## ⭐️ Sponsor: Add code to this repo
-
-- [x] Create a PR to this repo with the below changes:
-- [x] Provide a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
-- [x] Make sure your code is thoroughly commented using the [NatSpec format](https://docs.soliditylang.org/en/v0.5.10/natspec-format.html#natspec-format).
-- [x] Please have final versions of contracts and documentation added/updated in this repo **no less than 24 hours prior to contest start time.**
-- [x] Be prepared for a 🚨code freeze🚨 for the duration of the contest — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the contest. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
-
-
----
-
-## ⭐️ Sponsor: Edit this README
-
-Under "SPONSORS ADD INFO HERE" heading below, include the following:
-
-- [x] Modify the bottom of this `README.md` file to describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing. ([Here's a well-constructed example.](https://github.com/code-423n4/2022-08-foundation#readme))
-  - [x] When linking, please provide all links as full absolute links versus relative links
-  - [x] All information should be provided in markdown format (HTML does not render on Code4rena.com)
-- [x] Under the "Scope" heading, provide the name of each contract and:
-  - [x] source lines of code (excluding blank lines and comments) in each
-  - [ ] external contracts called in each
-  - [x] libraries used in each
-- [ ] Describe any novel or unique curve logic or mathematical models implemented in the contracts
-- [ ] Does the token conform to the ERC-20 standard? In what specific ways does it differ?
-- [x] Describe anything else that adds any special logic that makes your approach unique
-- [x] Identify any areas of specific concern in reviewing the code
-- [ ] Optional / nice to have: pre-record a high-level overview of your protocol (not just specific smart contract functions). This saves wardens a lot of time wading through documentation.
-- [x] See also: [this checklist in Notion](https://code4rena.notion.site/Key-info-for-Code4rena-sponsors-f60764c4c4574bbf8e7a6dbd72cc49b4#0cafa01e6201462e9f78677a39e09746)
-- [ ] Delete this checklist and all text above the line below when you're ready.
-
----
-
 # Rubicon contest details
 - Total Prize Pool: $60,500 USDC 
   - HM awards: $46,550 USDC 
@@ -68,7 +5,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
   - Gas report awards: $2,500 USDC 
   - Judge awards: $5,500 USDC 
   - Lookout awards: Sponsor to complete Pre-sort
-  - Scout awards: $500 USDC (Notion: Scout fee - but usually $500 USDC)
+  - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-04-rubicon-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
@@ -80,8 +17,6 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 Automated findings output for the contest can be found [here](add link to report) within an hour of contest opening.
 
 *Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
-
-[ ⭐️ SPONSORS ADD INFO HERE ]
 
 # Overview
 
