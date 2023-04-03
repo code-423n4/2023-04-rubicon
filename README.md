@@ -11,6 +11,7 @@
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts April 05, 2023 20:00 UTC
 - Ends April 13, 2023 20:00 UTC 
+- [Contest Overview Page from Sponsor](https://rubicondefi.notion.site/Rubicon-v2-Audit-Contest-b7b5b97393d14b068b6427522c779bfb)
 
 ## Automated Findings / Publicly Known Issues
 
