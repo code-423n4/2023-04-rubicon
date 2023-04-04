@@ -7,7 +7,7 @@
   - Lookout awards: Sponsor to complete Pre-sort
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2023-04-rubicon-v2-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2023-04-rubicon-v2/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts April 05, 2023 20:00 UTC
 - Ends April 13, 2023 20:00 UTC 
