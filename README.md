@@ -189,7 +189,9 @@ This contract allows any external smart contract to wrap calls to the Rubicon Pr
 # Tests and Installation
 Install dependencies
 ```shell
-git clone https://github.com/code-423n4/2023-04-rubicon # clone the repo
+git clone --recurse-submodules https://github.com/code-423n4/2023-04-rubicon # clone the repo with HTTPS
+git clone --recurse-submodules git@github.com:code-423n4/2023-04-rubicon.git # clone the repo with SSH
+git submodule update --init --recursive # Updating with submodule if the repo was cloned without `--recurse-submodules`
 npm i
 yarn install # install deps
 yarn run test # run tests
@@ -197,10 +199,18 @@ yarn run compile # compile
 ```
 *OR*
 ```shell
-git clone https://github.com/code-423n4/2023-04-rubicon # clone the repo
-npm i # install deps
-npm run test # run tests
-npm run compile # compile
+# Cloning the repo using HTTPS
+git clone --recurse-submodules https://github.com/code-423n4/2023-04-rubicon
+# Cloning the repo using SSH
+git clone --recurse-submodules git@github.com:code-423n4/2023-04-rubicon.git
+# Updating with submodule if the repo was cloned without `--recurse-submodules`
+git submodule update --init --recursive
+# install deps
+npm i
+# run tests
+npm run test 
+# compile
+npm run compile 
 ```
 ## Hardhat
 ```shell

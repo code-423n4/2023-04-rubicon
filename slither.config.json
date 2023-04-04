@@ -1,0 +1,3 @@
+{
+    "filter_paths": "(lib/|contracts/compound-v2-fork/|test/|node_modules/|contracts/proxy/|contracts/periphery/RubiconMarketV1.sol|contracts/utilities/MarketAid.sol|contracts/utilities/RubiconRouter.sol|contracts/periphery/BathTokenV1.sol|contracts/periphery/Test3rdPartyProtocol.sol|contracts/periphery/WETH9.sol|contracts/periphery/TokenWithFaucet.sol|contracts/utilities/poolsUtility/PoolsUtility.sol|contracts/utilities/MarketAidFactory.sol|contracts/periphery/DummyPriceOracle.sol)"
+}

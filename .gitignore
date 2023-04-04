@@ -109,5 +109,8 @@ dist
 .tern-port
 
 # Foundry libs
-
 lib/
+
+out/
+typechain-types/
+cache_forge
